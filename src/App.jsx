@@ -6,35 +6,35 @@ import {
 } from 'lucide-react';
 
 const ALL_MENU_ITEMS = [
-  { id: 1, name: "Attayampatti Murukku", price: "10", category: "Snacks", image: "/src/assets/Attayampatti Murukku.png" },
-  { id: 2, name: "Bun", price: "10", category: "Snacks", image: "/src/assets/Bun.png" },
-  { id: 3, name: "Butter Milk", price: "15", category: "Beverage", image: "/src/assets/Butter Milk.png" },
-  { id: 4, name: "Coffee", price: "20", category: "Beverage", image: "/src/assets/Coffee.png" },
-  { id: 5, name: "Tea", price: "15", category: "Beverage", image: "/src/assets/Tea.png" },
-  { id: 6, name: "Jalebi", price: "20", category: "Sweets", image: "/src/assets/Jalebi.png" },
-  { id: 7, name: "Laddu", price: "15", category: "Sweets", image: " /src/assets/Laddu.png" },
-  { id: 8, name: "Lime Soda", price: "20", category: "Beverage", image: "/src/assets/Lime Soda.png " },
+  { id: 1, name: "Attayampatti Murukku", price: "10", category: "Snacks", image: "/Attayampatti Murukku.png" },
+  { id: 2, name: "Bun", price: "10", category: "Snacks", image: "/Bun.png" },
+  { id: 3, name: "Butter Milk", price: "15", category: "Beverage", image: "/Butter Milk.png" },
+  { id: 4, name: "Coffee", price: "20", category: "Beverage", image: "/Coffee.png" },
+  { id: 5, name: "Tea", price: "15", category: "Beverage", image: "/Tea.png" },
+  { id: 6, name: "Jalebi", price: "20", category: "Sweets", image: "/Jalebi.png" },
+  { id: 7, name: "Laddu", price: "15", category: "Sweets", image: "/Laddu.png" },
+  { id: 8, name: "Lime Soda", price: "20", category: "Beverage", image: "/Lime Soda.png " },
 
 
 
-  { id: 9, name: "Medu Vada", price: "15", category: "Hot Snacks", image: "/src/assets/Medu Vada.png" },
-  { id: 10, name: "Mixture", price: "15", category: "Snacks", image: "/src/assets/Mixture.png" },
-  { id: 11, name: "Palkova", price: "10", category: "Bakery", image: "/src/assets/Palkova.png" },
+  { id: 9, name: "Medu Vada", price: "15", category: "Hot Snacks", image: "/Medu Vada.png" },
+  { id: 10, name: "Mixture", price: "15", category: "Snacks", image: "/Mixture.png" },
+  { id: 11, name: "Palkova", price: "10", category: "Bakery", image: "/Palkova.png" },
 
-  { id: 12, name: "Paruppu Vadai", price: "10", category: "Hot Snacks", image: "/src/assets/Paruppu Vadai.png" },
-  { id: 13, name: "Salt Biscuit", price: "10", category: "Bakery", image: "/src/assets/Salt Biscuit.png" },
-  { id: 14, name: "Samosas", price: "15", category: "Hot Snacks", image: "/src/assets/Samosas.png" },
-  { id: 15, name: "Sweet Poondhi", price: "15", category: "Sweets", image: "/src/assets/Sweet Poondhi.png" },
-
-
+  { id: 12, name: "Paruppu Vadai", price: "10", category: "Hot Snacks", image: "/Paruppu Vadai.png" },
+  { id: 13, name: "Salt Biscuit", price: "10", category: "Bakery", image: "/Salt Biscuit.png" },
+  { id: 14, name: "Samosas", price: "15", category: "Hot Snacks", image: "/Samosas.png" },
+  { id: 15, name: "Sweet Poondhi", price: "15", category: "Sweets", image: "/Sweet Poondhi.png" },
 
 
 
-  { id: 16, name: "Tea Biscuit", price: "10", category: "Bakery", image: "/src/assets/Tea Biscuit.png" },
-  { id: 17, name: "Thattuvadai Set", price: "10", category: "Bakery", image: "/src/assets/Thattuvadai Set.png" },
-  { id: 18, name: "Thengai Bun", price: "10", category: "Snacks", image: "/src/assets/Thengai Bun.png" },
-  { id: 19, name: "Urulaikilangu Bonda", price: "10", category: "Hot Snacks", image: "/src/assets/Urulaikilangu Bonda.png" },
-  { id: 20, name: "Valakkai Bajji", price: "10", category: "Hot Snacks", image: "/src/assets/Valakkai Bajji.png" },
+
+
+  { id: 16, name: "Tea Biscuit", price: "10", category: "Bakery", image: "/Tea Biscuit.png" },
+  { id: 17, name: "Thattuvadai Set", price: "10", category: "Bakery", image: "/Thattuvadai Set.png" },
+  { id: 18, name: "Thengai Bun", price: "10", category: "Snacks", image: "/Thengai Bun.png" },
+  { id: 19, name: "Urulaikilangu Bonda", price: "10", category: "Hot Snacks", image: "/Urulaikilangu Bonda.png" },
+  { id: 20, name: "Valakkai Bajji", price: "10", category: "Hot Snacks", image: "/Valakkai Bajji.png" },
 
  
 ];
