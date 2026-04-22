@@ -6,29 +6,37 @@ import {
 } from 'lucide-react';
 
 const ALL_MENU_ITEMS = [
-  { id: 1, name: "Tea", price: "15", category: "Beverage", image: "https://images.unsplash.com/photo-1544787219-7f47ccb76574?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 2, name: "Coffee", price: "20", category: "Beverage", image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 3, name: "Coconut Water", price: "40", category: "Beverage", image: "https://images.unsplash.com/photo-1523362628745-0c100150b504?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 4, name: "Butter Milk", price: "20", category: "Beverage", image: "https://images.unsplash.com/photo-1550583724-b2692b85b150?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 5, name: "Tea Biscuit", price: "10", category: "Bakery", image: "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 6, name: "Cookies", price: "20", category: "Bakery", image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 7, name: "Buns", price: "15", category: "Bakery", image: "https://images.unsplash.com/photo-1550617931-e17a7b70dce2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 8, name: "Sweet Buns", price: "15", category: "Bakery", image: "https://images.unsplash.com/photo-1509440159596-0249088772ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 9, name: "Cake", price: "25", category: "Bakery", image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 10, name: "Samosa", price: "15", category: "Snacks", image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 11, name: "Murukku", price: "10", category: "Snacks", image: "https://images.unsplash.com/photo-1615486767794-4b74a6dc68e0?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 12, name: "Thattuvadai", price: "10", category: "Snacks", image: "https://images.unsplash.com/photo-1606755456206-b25206cde27e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 13, name: "Mixture", price: "20", category: "Snacks", image: "https://images.unsplash.com/photo-1596541578500-2d5867a5cf2b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 14, name: "Chips", price: "15", category: "Snacks", image: "https://images.unsplash.com/photo-1566478989037-eec170784d0b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 15, name: "Masala Peanut", price: "15", category: "Snacks", image: "https://images.unsplash.com/photo-1560340356-9a25032a2205?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 16, name: "Paruppu Vadai", price: "10", category: "Hot Snacks", image: "https://images.unsplash.com/photo-1604152135912-04a022e23696?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 17, name: "Ulundhu Vadai", price: "10", category: "Hot Snacks", image: "https://images.unsplash.com/photo-1589301773822-033100366ebf?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 18, name: "Valakai Bajji", price: "10", category: "Hot Snacks", image: "https://images.unsplash.com/photo-1626505837946-b605eb3e8526?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 19, name: "Mulagai Bajji", price: "10", category: "Hot Snacks", image: "https://images.unsplash.com/photo-1569420583842-8c9df40a6b57?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 20, name: "Bonda", price: "10", category: "Hot Snacks", image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 21, name: "Laddu", price: "20", category: "Sweets", image: "https://images.unsplash.com/photo-1605197584547-c90ebda1b5eb?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 22, name: "Adhirasam", price: "20", category: "Sweets", image: "https://images.unsplash.com/photo-1589114471223-fa182fb0677e?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
-  { id: 23, name: "Palkova", price: "25", category: "Sweets", image: "https://images.unsplash.com/photo-1558325390-34901cf4f4ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" },
+  { id: 1, name: "Attayampatti Murukku", price: "10", category: "Snacks", image: "/src/assets/Attayampatti Murukku.png" },
+  { id: 2, name: "Bun", price: "10", category: "Snacks", image: "/src/assets/Bun.png" },
+  { id: 3, name: "Butter Milk", price: "15", category: "Beverage", image: "/src/assets/Butter Milk.png" },
+  { id: 4, name: "Coffee", price: "20", category: "Beverage", image: "/src/assets/Coffee.png" },
+  { id: 5, name: "Tea", price: "15", category: "Beverage", image: "/src/assets/Tea.png" },
+  { id: 6, name: "Jalebi", price: "20", category: "Sweets", image: "/src/assets/Jalebi.png" },
+  { id: 7, name: "Laddu", price: "15", category: "Sweets", image: " /src/assets/Laddu.png" },
+  { id: 8, name: "Lime Soda", price: "20", category: "Beverage", image: "/src/assets/Lime Soda.png " },
+
+
+
+  { id: 9, name: "Medu Vada", price: "15", category: "Hot Snacks", image: "/src/assets/Medu Vada.png" },
+  { id: 10, name: "Mixture", price: "15", category: "Snacks", image: "/src/assets/Mixture.png" },
+  { id: 11, name: "Palkova", price: "10", category: "Bakery", image: "/src/assets/Palkova.png" },
+
+  { id: 12, name: "Paruppu Vadai", price: "10", category: "Hot Snacks", image: "/src/assets/Paruppu Vadai.png" },
+  { id: 13, name: "Salt Biscuit", price: "10", category: "Bakery", image: "/src/assets/Salt Biscuit.png" },
+  { id: 14, name: "Samosas", price: "15", category: "Hot Snacks", image: "/src/assets/Samosas.png" },
+  { id: 15, name: "Sweet Poondhi", price: "15", category: "Sweets", image: "/src/assets/Sweet Poondhi.png" },
+
+
+
+
+
+  { id: 16, name: "Tea Biscuit", price: "10", category: "Bakery", image: "/src/assets/Tea Biscuit.png" },
+  { id: 17, name: "Thattuvadai Set", price: "10", category: "Bakery", image: "/src/assets/Thattuvadai Set.png" },
+  { id: 18, name: "Thengai Bun", price: "10", category: "Snacks", image: "/src/assets/Thengai Bun.png" },
+  { id: 19, name: "Urulaikilangu Bonda", price: "10", category: "Hot Snacks", image: "/src/assets/Urulaikilangu Bonda.png" },
+  { id: 20, name: "Valakkai Bajji", price: "10", category: "Hot Snacks", image: "/src/assets/Valakkai Bajji.png" },
+
+ 
 ];
 
 const App = () => {
@@ -36,9 +44,9 @@ const App = () => {
 
   useEffect(() => {
     if (currentView === 'home') {
-      document.title = "Oru Tea Machi | Premium Office Tea & Snacks Delivery";
+      document.title = "The Office Cup | Premium Office Tea & Snacks Delivery";
     } else if (currentView === 'menu') {
-      document.title = "Complete Menu | Oru Tea Machi Snacks & Beverages";
+      document.title = "Complete Menu | The Office Cup Snacks & Beverages";
     }
   }, [currentView]);
 
@@ -86,7 +94,7 @@ const HomePage = ({ onViewAllMenu }) => {
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData.entries());
-    const message = `*New Service Enquiry - Oru Tea Machi*%0a%0a👤 *Name:* ${data.name}%0a🏢 *Company:* ${data.company}%0a📧 *Email:* ${data.email}%0a📍 *Address:* ${data.address}%0a☕ *Req:* ${data.requirement}`;
+    const message = `*New Service Enquiry - The Office Cup*%0a%0a👤 *Name:* ${data.name}%0a🏢 *Company:* ${data.company}%0a📧 *Email:* ${data.email}%0a📍 *Address:* ${data.address}%0a☕ *Req:* ${data.requirement}`;
     window.open(`https://wa.me/918892606625?text=${message}`, '_blank');
   };
 
@@ -101,7 +109,7 @@ const HomePage = ({ onViewAllMenu }) => {
             <div className="w-10 h-10 rounded-full bg-[#C59D5F] flex items-center justify-center text-[#2C1810]">
               <Coffee size={24} />
             </div>
-            <span className="text-2xl font-bold tracking-wide font-serif">Oru Tea Machi</span>
+            <span className="text-2xl font-bold tracking-wide font-serif">The Office Cup</span>
           </div>
           <div className="hidden md:flex items-center space-x-8 text-sm font-semibold tracking-wider uppercase">
             <a href="#home" className="hover:text-[#C59D5F] transition">Home</a>
@@ -133,12 +141,12 @@ const HomePage = ({ onViewAllMenu }) => {
         <div className="absolute top-28 right-6 md:top-32 md:right-16 z-10 animate-bounce">
           <div className="bg-[#DAB87F] text-[#2C1810] font-bold px-6 py-3 rounded-full shadow-2xl transform rotate-6 border border-[#2C1810]/20">
             <p className="text-xs uppercase tracking-widest text-center">Minimum Order</p>
-            <p className="text-lg font-serif">30 Tea/Coffee</p>
+            <p className="text-lg font-serif">10 Tea/Coffee</p>
           </div>
         </div>
         <div className="max-w-4xl mx-auto z-10 text-white mt-12">
           <span className="text-[#DAB87F] uppercase tracking-[0.2em] font-bold mb-4 block text-sm">Premium Desk Service</span>
-          <h1 className="text-6xl md:text-8xl font-serif font-bold mb-6 drop-shadow-lg">Oru Tea Machi</h1>
+          <h1 className="text-6xl md:text-8xl font-serif font-bold mb-6 drop-shadow-lg">The Office Cup</h1>
           <p className="text-xl md:text-2xl text-gray-200 font-light mb-10 max-w-2xl mx-auto">
             Fresh tea, coffee, and snacks delivered directly to your workstation during office hours.
           </p>
@@ -395,7 +403,7 @@ const Footer = () => (
 
     {/* Copyright Text */}
     <p className="text-xs opacity-60 pb-8">
-      &copy; {new Date().getFullYear()} Oru Tea Machi Services. All Rights Reserved.
+      &copy; {new Date().getFullYear()} The Office Cup Services. All Rights Reserved.
     </p>
   </footer>
 );
